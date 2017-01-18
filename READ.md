@@ -1,4 +1,4 @@
-This algorithms generate the sphere counts for the three-dimensional Heisenberg group over the integers (nilpotent of step 2).
+This algorithms generate the sphere counts for the three-dimensional Heisenberg group over the integers (nilpotent of step 2), and gives the sphere count in terms of its Malcev coordinates. 
 
 To run these algorithms on your computer, you will need a running version of [SageMath](http://www.sagemath.org/).
 
