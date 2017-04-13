@@ -6,7 +6,6 @@
 #b^{y_1}a^{x_1}...b^{y_n}a^{x_n} 
 #= a^{x_1+...+x_n} b^{y_1+...+y_n} c^{-[x_1(y_1+...+y_n) + x_2(y_2+...+y_n) + x_n y_n]}.
 
-#For more information, refer to FastMalcifierAlgorithm.pdf
 #-----
 
 #Make N_2,2 with generators a,b, c = [a,b]
