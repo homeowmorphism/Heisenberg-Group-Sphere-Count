@@ -4,7 +4,7 @@
 
 #Compute Malcev normal form in O(n) time using key formula:
 #b^{y_1}a^{x_1}...b^{y_n}a^{x_n} 
-#= a^{x_1+...+x_n} b^{y_1+...+y_n} c^{-[x_1(y_1+...+y_n) + x_2(y_2+...+y_n) + x_n y_n]}.
+#= a^{x_1+...+x_n} b^{y_1+...+y_n} c^{-[x_1y_1 + x_2(y_1+y_2) + x_n (y_1+y_2+...+y_n)]}.
 
 #-----
 
@@ -62,7 +62,7 @@ def compute_Malcev_coords(a_powers,b_powers,c_counter):
 	#Given a_powers = [x_1,..,x_n], b_powers = [y_1,...,y_n], 
 	#formula for a coordinate is x = (x_1+...+x_n),
 	#formula for b coordinate is y = (y_1+...+y_n),
-	#formula for c coordinate is z =  -(x_1*(y_1+..+y_n) + x_2*(y_2+...+y_n) + ... + x_n y_n).
+	#formula for c coordinate is z =  -(x_1*y_1 + x_2*(y_1+y_2) + x_n*(y_1+y_2+...+y_n)).
 
 	X = sum(a_powers)
 	Y = sum(b_powers)
