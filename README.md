@@ -20,3 +20,7 @@ To obtain the *sphere words [generating set]* file, for example, the sphere coun
 sage: print_spherecounts([a,b], 8)
 ```
 once the script is done running, the file shoud appear in the folder you're in from the command line!
+
+## Acknowledgements
+
+This code was written as a research project at Tufts University under the supervision of [Moon Duchin](http://mduchin.math.tufts.edu/) and [Ayla P. Sánchez](http://www.asanchezmath.com/). I would also like to thank Charles Freeman for chatting with me, as well as [tEp](http://tep.mit.edu/), [Random](http://web.mit.edu/random-hall/www/) and David Yang for giving me a place to crash during a couple blissfully dizzying months in Cambridge, MA. 
